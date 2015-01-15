@@ -5,7 +5,16 @@
  */
 exports.sumOfAMultiple = function(n){
   var sum = 0;
-  // do your work here
+ var num=0;
+while(num<n){
+
+  if(num%3===0 || numm%5===0){
+    sum+=num;
+
+  }
+}
+
+
   
   return sum;
 };
